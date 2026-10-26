@@ -29,5 +29,5 @@ with tabs[2]:
 # Tab 4:
 with tabs[3]:
     st.subheader(f"Closing Price by Date")
-    st.line_chart(df['Date'], df['Close'])
+    st.line_chart(x = df['Date'], y = df['Close'])
     
